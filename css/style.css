@@ -57,11 +57,14 @@ body {
 }
 
 .preview {
+  max-width: 1540px;
   display: flex;
+  margin: auto;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  padding: 60px 20px;
+  margin-bottom: 20px;
+  padding: 60px;
 }
 
 .preview-text {
