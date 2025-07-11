@@ -9,8 +9,11 @@ body {
   background: url("../Assets/Hero-bg.png") no-repeat center center/cover;
   padding: 20px 40px;
   color: white;
+  height: 70vh;
 }
 .navbar {
+  padding-left: 40px;
+  padding-right: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
