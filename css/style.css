@@ -66,15 +66,18 @@ body {
 }
 
 .preview-text h2 {
-  font-size: 1.5rem;
+  font-size: 42px;
   margin-bottom: 10px;
 }
-
+.preview-text p {
+  font-size: 24px;
+  color: rgba(37, 36, 50, 0.5);
+}
 .preview-img img {
   width: 300px;
   border-radius: 16px;
 }
-
+/* Productive users Section Style Start */
 .stats {
   width: 1140px;
   height: 306px;
@@ -86,86 +89,25 @@ body {
   border-radius: 15px;
 }
 .stats h2 {
-  margin-bottom: 40px;
+  margin-top: 50px;
+  margin-bottom: 20px;
   font-weight: 600;
+  font-size: 38px;
 }
 
 .stats-grid {
   display: flex;
   justify-content: center;
-  gap: 60px;
+  gap: 158px;
+  margin-top: 0;
 }
 
 .stats-grid h3 {
-  font-size: 2rem;
+  font-size: 4rem;
   color: #4f46e5;
   margin-bottom: 5px;
 }
-
-.action-section {
-  width: 1140px;
-  height: 696.77px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 40px;
-  padding: 60px 40px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  flex-wrap: wrap;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
-}
-
-.left-side {
-  flex: 1;
-  min-width: 280px;
-}
-
-.left-side h2 {
-  font-size: 2.5rem;
-  margin-bottom: 16px;
-  color: #111827;
-}
-
-.left-side p {
-  font-size: 1.125rem;
-  margin-bottom: 24px;
-  color: #4b5563;
-  line-height: 1.6;
-}
-
-.launch-btn {
-  background-color: #2563eb;
-  color: white;
-  padding: 14px 28px;
-  font-size: 1rem;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.launch-btn:hover {
-  background-color: #1d4ed8;
-}
-
-.right-side {
-  flex: 1;
-  min-width: 280px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.right-side img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-}
-
-/* Feedback Section style Start */
+/* Users’ Feedback Section style Start here */
 .testimonials {
   text-align: center;
   padding: 60px 20px;
@@ -175,7 +117,7 @@ body {
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 40px;
-  color: #1c1c1c;
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .testimonial-container {
@@ -302,7 +244,7 @@ body {
 }
 
 .contact-form button:hover {
-  background-color: #3b3bff;
+  background-color: #6688e7;
 }
 /* Footer section style Start */
 .footer {
