@@ -10,22 +10,16 @@ body {
   padding: 20px 40px;
   color: white;
 }
-
-/* Navbar inside header */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-/* Logo Style */
 .logo {
   font-weight: bold;
   font-size: 1.5rem;
   color: #4f46e5;
 }
-
-/* Button Base */
 .btn {
   background-color: #4f46e5;
   color: white;
@@ -38,10 +32,9 @@ body {
 }
 
 .btn:hover {
-  background-color: #4338ca;
+  background-color: #8980f0;
 }
 
-/* Hero Section */
 .hero {
   text-align: center;
   padding: 80px 20px;
@@ -54,10 +47,6 @@ body {
 }
 .hero h1 span {
   color: #252432;
-}
-
-.hero span {
-  color: #e0e7ff;
 }
 
 .btn-focus {
